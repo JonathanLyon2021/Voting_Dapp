@@ -63,3 +63,23 @@ $(document).ready(function () {
             "stateMutability": "view",
             "type": "function"
         },
+	 {
+            "inputs": [
+                {
+                    "internalType": "uint32",
+                    "name": "index",
+                    "type": "uint32"
+                }
+            ],
+            "name": "getVotes",
+            "outputs": [
+                {
+                    "internalType": "uint32",
+                    "name": "",
+                    "type": "uint32"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ];
