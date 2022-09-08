@@ -84,3 +84,23 @@ $(document).ready(function () {
         }
     ];
 const votingContract = new ethers.Contract(votingContractAddress, votingContractABI, ethereumProvider);
+	 showView("viewHome");
+
+    $('#linkHome').click(function () {
+        showView("viewHome");
+    });
+
+    $('#linkLogin').click(function () {
+        showView("viewLogin");
+    });
+
+    $('#linkRegister').click(function () {
+        showView("viewRegister");
+    });
+
+    $('#linkLogout').click(logout);
+
+    $('#buttonLogin').click(login);
+    $('#buttonRegister').click(register);
+
+	
