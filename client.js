@@ -103,4 +103,19 @@ const votingContract = new ethers.Contract(votingContractAddress, votingContract
     $('#buttonLogin').click(login);
     $('#buttonRegister').click(register);
 
-	
+function showView(viewName) {
+        // Hide all views and show the selected view only
+        $('main > section').hide();
+        $('#' + viewName).show();
+        const loggedIn = sessionStorage.jsonWallet;
+        if (loggedIn) {
+            $('.show-after-login').show();
+            $('.hide-after-login').hide();
+        } else {
+            $('.show-after-login').hide();
+            $('.hide-after-login').show();
+        }
+        if (viewName === 'viewHome')
+            loadVotingResults();
+    }
+
