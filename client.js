@@ -44,3 +44,22 @@ $(document).ready(function () {
             "stateMutability": "view",
             "type": "function"
         },
+{
+            "inputs": [
+                {
+                    "internalType": "uint32",
+                    "name": "index",
+                    "type": "uint32"
+                }
+            ],
+            "name": "getCandidate",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
