@@ -31,3 +31,16 @@ $(document).ready(function () {
             "stateMutability": "nonpayable",
             "type": "function"
         },
+	 {
+            "inputs": [],
+            "name": "candidatesCount",
+            "outputs": [
+                {
+                    "internalType": "uint32",
+                    "name": "",
+                    "type": "uint32"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
