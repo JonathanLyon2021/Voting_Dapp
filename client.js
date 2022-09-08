@@ -4,3 +4,17 @@ $(document).ready(function () {
 		'ropsten'
 	);
     const votingContractAddress = "0x30895F95c7E81Dde93Fc28f7b712c8bF286D5eA8";
+ const votingContractABI = [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "name": "addCandidate",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
