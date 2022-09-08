@@ -18,3 +18,16 @@ $(document).ready(function () {
             "stateMutability": "nonpayable",
             "type": "function"
         },
+ {
+            "inputs": [
+                {
+                    "internalType": "uint32",
+                    "name": "index",
+                    "type": "uint32"
+                }
+            ],
+            "name": "vote",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
