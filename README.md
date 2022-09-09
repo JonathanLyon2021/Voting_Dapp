@@ -17,3 +17,6 @@ This is Exercise 7 from MI4 in Kingsland Universities Blockchain Developer Progr
     • Node v16.15.0
     • NPM v7.19.1
     • Ethers.js v5.6
+
+# Setup the Project
+    npm install
