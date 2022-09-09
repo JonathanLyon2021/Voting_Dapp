@@ -26,3 +26,11 @@ This is Exercise 7 from MI4 in Kingsland Universities Blockchain Developer Progr
 
 # Register 
   After you have added some candidates, from Remix copy the contract address and ABI and set them in the client.js
+
+Now it's time to make a POST request to the server.
+• type – POST
+• url – "/register"
+• data – JSON of the username
+• server password
+• encrypted wallet
+• content type – "application/json"
