@@ -24,3 +24,5 @@ This is Exercise 7 from MI4 in Kingsland Universities Blockchain Developer Progr
 # Deploy the Contract in Remix
   Before we continue with the client-side, let's deploy the contract in Ropsten.
 
+# Register 
+  After you have added some candidates, from Remix copy the contract address and ABI and set them in the client.js
