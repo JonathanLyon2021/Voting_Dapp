@@ -12,3 +12,8 @@ This is Exercise 7 from MI4 in Kingsland Universities Blockchain Developer Progr
 -Wallet password: user's original password
 • Encrypt wallet in UTC/JSON format (both private key + mnemonic phrase are encrypted with AES-CRT- 128 using Scrypt key derivation).
 • Upon login, the client downloads the encrypted JSON from the server and stores it in the browser session.
+
+# Prerequisites
+    • Node v16.15.0
+    • NPM v7.19.1
+    • Ethers.js v5.6
