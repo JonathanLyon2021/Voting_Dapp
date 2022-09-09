@@ -20,3 +20,7 @@ This is Exercise 7 from MI4 in Kingsland Universities Blockchain Developer Progr
 
 # Setup the Project
     npm install
+
+# Deploy the Contract in Remix
+  Before we continue with the client-side, let's deploy the contract in Ropsten.
+
