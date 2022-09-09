@@ -34,3 +34,7 @@ Now it's time to make a POST request to the server.
 • server password
 • encrypted wallet
 • content type – "application/json"
+
+After the request is done, save the username and encrypted wallet in the session storage and show the home page
+using showView("viewHome"). Show an additional message that the user has been successfully registered and
+show the mnemonic for the first and last time.
