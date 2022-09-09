@@ -38,3 +38,18 @@ Now it's time to make a POST request to the server.
 After the request is done, save the username and encrypted wallet in the session storage and show the home page
 using showView("viewHome"). Show an additional message that the user has been successfully registered and
 show the mnemonic for the first and last time.
+
+Now, test the register functionality. Go to src folder and in the terminal type:
+
+         node voting-server.js
+         
+Open the browser and go to http://localhost:1024
+
+# Logout
+
+# Login
+Now it is time to implement the login functionality. Like the register one, take the username and wallet password
+and create the back-end password using HMAC256. Then, make a POST request to "/login" with the username and
+password as data. The server-side will validate whether those credentials are correct or not and return a status
+message. If they are correct, the result will store the user's encrypted wallet. Save it in the session storage, along
+with the username. Last but not least, show the home view and an appropriate message.
