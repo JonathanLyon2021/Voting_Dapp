@@ -45,7 +45,8 @@ Now, test the register functionality. Go to src folder and in the terminal type:
          
 Open the browser and go to http://localhost:1024
 
-# Logout
+# Logout 
+Now we need to logout to make sure that the the Jwt token is being removed from local storage.
 
 # Login
 Now it is time to implement the login functionality. Like the register one, take the username and wallet password
