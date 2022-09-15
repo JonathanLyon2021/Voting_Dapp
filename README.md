@@ -65,19 +65,18 @@ votes. Additionally, if a user is logged in, a button will appear with which he 
 the <ul> with id #votingResults.
     
 # Vote
-    Last but not least, the voting functionality. The method takes the candidate's index and the candidate's name as
-parameters. We will decrypt the wallet and vote for the candidate.
-Take the wallet from the session storage and create a prompt box in which the user will re-enter his password.
-    Using ethers.Wallet.fromEncryptedWallet, decrypt the JSON file. Create a new wallet with the private key and
+  Last but not least, the voting functionality. The method takes the candidate's index and the candidate's name as parameters. We will decrypt the wallet and vote 
+for the candidate. Take the wallet from the session storage and create a prompt box in which the user will re-enter his password.
+Using ethers.Wallet.fromEncryptedWallet, decrypt the JSON file. Create a new wallet with the private key and
 Ropsten provider. Then create a new voting contract instance with the wallet as a signer.
-    Vote for the candidate. After that, show a message with the candidate's name and a URL of the transaction in
+Vote for the candidate. After that, show a message with the candidate's name and a URL of the transaction in
 Ropsten block explorer with the received transaction hash as callback.
-    Before you test the vote functionality, get yourself some test ETH from the faucet (https://faucet.egorfine.com/) or
+Before you test the vote functionality, get yourself some test ETH from the faucet (https://faucet.egorfine.com/) or
 ask someone to send you. If you ever get the error below, that means the first account in your HD wallet does not
 have any ropsten test ether.
-    You can use your mnemonic to view keys and addresses using a tool like https://iancoleman.io/bip39/. From there,
+You can use your mnemonic to view keys and addresses using a tool like https://iancoleman.io/bip39/. From there,
 you can copy the first address you find from the derived addresses to receive ether using this
 https://faucet.egorfine.com/ or import the first account’s private key into an external wallet such as Metamask to
 receive funds using this faucet.
-    After that, pick one of your candidates and click [Vote]. A pop-up will appear to re-enter your password. After that a
+After that, pick one of your candidates and click [Vote]. A pop-up will appear to re-enter your password. After that a
 message/error will appear. You have successfully voted for a candidate, Congratulations!
