@@ -61,8 +61,8 @@ block, first get the count of the candidates using votingContract.candidatesCoun
 with a simple for loop get the candidate and his votes by an index and store them in an array.
 
 After that comes the part to display them. For each candidate, create a <li> element with its candidate name and
-votes. Additionally, if a user is logged in, a button will appear with which he can vote. Append the <li> element to
-the <ul> with id #votingResults.
+votes. Additionally, if a user is logged in, a button will appear with which he can vote. Append the list element (<li>) to
+the unordered list(<ul>) with id #votingResults.
     
 # Vote
   Last but not least, the voting functionality. The method takes the candidate's index and the candidate's name as parameters. We will decrypt the wallet and vote 
