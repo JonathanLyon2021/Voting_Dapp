@@ -1,5 +1,5 @@
 # Voting_Dapp
-This is Exercise 7 from MI4 in Kingsland Universities Blockchain Developer Program
+*This is Exercise 7 from MI4 in Kingsland Universities Blockchain Developer Program
 
 # Goals
 • The app implements register / login / logout / vote functionality.
