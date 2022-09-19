@@ -78,4 +78,4 @@ you can copy the first address you find from the derived addresses to receive et
 https://faucet.egorfine.com/ or import the first account’s private key into an external wallet such as Metamask to
 receive funds using this faucet.
 After that, pick one of your candidates and click [Vote]. A pop-up will appear to re-enter your password. After that a
-message/error will appear. You have successfully voted for a candidate, Congratulations!
+message/error will appear. You have successfully voted for a candidate. Congratulations!
