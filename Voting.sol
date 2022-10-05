@@ -7,4 +7,8 @@ contract Voting {
     Candidate[] candidates;
     mapping (string => bool) candidateNames;
 
-    
+    function addCandidate(string name) public {
+        require(!candidateNames[name]);
+        candidates.push(Candidate(name, 0));
+        candidateNames[name] = true;
+    }
