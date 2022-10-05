@@ -24,3 +24,9 @@ contract Voting {
      function getVotes(uint32 index) view public returns (uint32) {
         return candidates[index].votes;
     }
+
+    function vote(uint32 index) public {
+        require(index >= 0);
+        require(index < candidates.length);
+        candidates[index].votes++;
+    }
