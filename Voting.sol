@@ -12,3 +12,8 @@ contract Voting {
         candidates.push(Candidate(name, 0));
         candidateNames[name] = true;
     }
+    
+    function candidatesCount() view public returns (uint32) {
+        return uint32(candidates.length);
+    }
+
