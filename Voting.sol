@@ -17,3 +17,6 @@ contract Voting {
         return uint32(candidates.length);
     }
 
+     function getCandidate(uint32 index) view public returns (string) {
+        return candidates[index].name;
+    }
